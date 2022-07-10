@@ -143,16 +143,52 @@ display: flex;
 flex-direction: column;
 align-items: center;
 #claim-logo{margin-bottom: 5%;}
-#claims{width: 100%;
+#claims{
+width: 90%;
 display: flex;
 justify-content: space-between;
 .unemployment{
-width: 265px;
-height: 235px;
-background-image: url(./images/unemployment.png);
-background-size: cover;}
-.disability{}
-.PFL{}}
+width: 19vw;
+height: 17vw;
+background: url(./images/unemployment.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 15%;
+
+}
+.disability{
+width: 19vw;
+height: 17vw;
+background: url(./images/disability.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 15%;
+}
+.PFL{
+width: 19vw;
+height: 17vw;
+width: 19vw;
+height: 17vw;
+background: url(./images/PFL.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 15%;
+
+
+}
+}
 
 
 
@@ -295,6 +331,68 @@ text-decoration-color: #5555;
 
 }}
 }
+
+.claim{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 150vh;
+#claim-logo{margin-bottom: 5%;}
+#claims{
+width: 90%;
+height: 90%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+.unemployment{
+width: 265px;
+height: 235px;
+background: url(./images/unemployment.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 36px;
+
+}
+.disability{
+  width: 265px;
+height: 235px;
+background: url(./images/disability.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 36px;
+}
+.PFL{
+width: 265px;
+height: 235px;
+background: url(./images/PFL.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 36px;
+
+
+}
+}
+
+
+
+}
+
+
+
+
   }
 }
 
@@ -432,5 +530,9 @@ text-decoration-color: #5555;
 
 }
 }
+
+
+
+
   }
 }

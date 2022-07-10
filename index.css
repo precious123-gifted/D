@@ -228,7 +228,7 @@ body {
     margin-bottom: 5%;
   }
   .main .claim #claims {
-    width: 100%;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -237,10 +237,60 @@ body {
             justify-content: space-between;
   }
   .main .claim #claims .unemployment {
-    width: 265px;
-    height: 235px;
-    background-image: url(./images/unemployment.png);
+    width: 19vw;
+    height: 17vw;
+    background: url(./images/unemployment.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 15%;
+  }
+  .main .claim #claims .disability {
+    width: 19vw;
+    height: 17vw;
+    background: url(./images/disability.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 15%;
+  }
+  .main .claim #claims .PFL {
+    width: 19vw;
+    height: 17vw;
+    width: 19vw;
+    height: 17vw;
+    background: url(./images/PFL.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 15%;
   }
 }
 
@@ -443,6 +493,93 @@ body {
             text-decoration-color: #02374e;
     color: #02374e;
     background-color: white;
+  }
+  .main .claim {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 150vh;
+  }
+  .main .claim #claim-logo {
+    margin-bottom: 5%;
+  }
+  .main .claim #claims {
+    width: 90%;
+    height: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .claim #claims .unemployment {
+    width: 265px;
+    height: 235px;
+    background: url(./images/unemployment.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 36px;
+  }
+  .main .claim #claims .disability {
+    width: 265px;
+    height: 235px;
+    background: url(./images/disability.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 36px;
+  }
+  .main .claim #claims .PFL {
+    width: 265px;
+    height: 235px;
+    background: url(./images/PFL.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 36px;
   }
 }
 
