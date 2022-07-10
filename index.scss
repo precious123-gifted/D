@@ -142,6 +142,7 @@ text-decoration-color: #5555;
 display: flex;
 flex-direction: column;
 align-items: center;
+spam{font-size: 2vw;}
 #claim-logo{margin-bottom: 5%;}
 #claims{
 width: 90%;
@@ -337,6 +338,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 height: 150vh;
+spam{font-size: 25px;}
 #claim-logo{margin-bottom: 5%;}
 #claims{
 width: 90%;
@@ -397,7 +399,7 @@ border-radius: 36px;
 }
 
 //tablets
-@media only screen and (min-width: 600px) and (max-width: 1025px) and (orientation: portrait) {
+@media only screen and (min-width: 600px) and (max-width: 800px)  {
   ::-webkit-scrollbar {
  display: none;
   }
@@ -531,6 +533,65 @@ text-decoration-color: #5555;
 }
 }
 
+
+.claim{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 150vh;
+spam{font-size: 4vw;}
+#claim-logo{margin-bottom: 5%;}
+#claims{
+width: 90%;
+height: 90%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+.unemployment{
+width: 265px;
+height: 235px;
+background: url(./images/unemployment.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 36px;
+
+}
+.disability{
+  width: 265px;
+height: 235px;
+background: url(./images/disability.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 36px;
+}
+.PFL{
+width: 265px;
+height: 235px;
+background: url(./images/PFL.png) no-repeat 0, 0 #000303b9;
+background-blend-mode: multiply;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 36px;
+
+
+}
+}
+
+
+
+}
 
 
 

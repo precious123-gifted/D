@@ -224,6 +224,9 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .main .claim spam {
+    font-size: 2vw;
+  }
   .main .claim #claim-logo {
     margin-bottom: 5%;
   }
@@ -507,6 +510,9 @@ body {
             align-items: center;
     height: 150vh;
   }
+  .main .claim spam {
+    font-size: 25px;
+  }
   .main .claim #claim-logo {
     margin-bottom: 5%;
   }
@@ -583,7 +589,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1025px) and (orientation: portrait) {
+@media only screen and (min-width: 600px) and (max-width: 800px) {
   ::-webkit-scrollbar {
     display: none;
   }
@@ -775,6 +781,96 @@ body {
             text-decoration-color: #02374e;
     color: #02374e;
     background-color: white;
+  }
+  .main .claim {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 150vh;
+  }
+  .main .claim spam {
+    font-size: 4vw;
+  }
+  .main .claim #claim-logo {
+    margin-bottom: 5%;
+  }
+  .main .claim #claims {
+    width: 90%;
+    height: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .claim #claims .unemployment {
+    width: 265px;
+    height: 235px;
+    background: url(./images/unemployment.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 36px;
+  }
+  .main .claim #claims .disability {
+    width: 265px;
+    height: 235px;
+    background: url(./images/disability.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 36px;
+  }
+  .main .claim #claims .PFL {
+    width: 265px;
+    height: 235px;
+    background: url(./images/PFL.png) no-repeat 0, 0 #000303b9;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 36px;
   }
 }
 /*# sourceMappingURL=index.css.map */
