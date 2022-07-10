@@ -223,6 +223,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 10%;
   }
   .main .claim spam {
     font-size: 2vw;
@@ -294,6 +295,87 @@ body {
             align-items: center;
     color: white;
     border-radius: 15%;
+  }
+  .main .brief_container {
+    background-color: #323A45;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 212px;
+  }
+  .main .brief_container span {
+    width: 90%;
+    font-size: 1.6vw;
+  }
+  .main .PFL_banner {
+    background-image: url(./images/PFL-BKG.png);
+    height: 212px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .PFL_banner .PFL_banner_div {
+    width: 90%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL {
+    width: 30%;
+    height: 80%;
+    font-size: 170%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN {
+    border-radius: 0.4vw;
+    border: 1px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 70%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 30%;
+    width: 60%;
+    background-color: #006892;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN:hover {
+    background-color: #035376;
+    color: white;
   }
 }
 
@@ -509,6 +591,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     height: 150vh;
+    margin-bottom: 15%;
   }
   .main .claim spam {
     font-size: 25px;
@@ -586,6 +669,93 @@ body {
             align-items: center;
     color: white;
     border-radius: 36px;
+  }
+  .main .brief_container {
+    background-color: #323A45;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 212px;
+  }
+  .main .brief_container span {
+    width: 90%;
+    font-size: 3.2vw;
+  }
+  .main .PFL_banner {
+    background-image: url(./images/PFL-BKG-min.png);
+    height: 212px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .PFL_banner .PFL_banner_div {
+    width: 90%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL {
+    width: 100%;
+    height: 80%;
+    font-size: 170%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL .writeUp {
+    width: 60%;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN {
+    border-radius: 0.4vw;
+    border: 1px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 70%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 30%;
+    width: 60%;
+    background-color: #006892;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN:hover {
+    background-color: #035376;
+    color: white;
   }
 }
 
@@ -794,6 +964,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     height: 150vh;
+    margin-bottom: 15%;
   }
   .main .claim spam {
     font-size: 4vw;
@@ -871,6 +1042,93 @@ body {
             align-items: center;
     color: white;
     border-radius: 36px;
+  }
+  .main .brief_container {
+    background-color: #323A45;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 212px;
+  }
+  .main .brief_container span {
+    width: 90%;
+    font-size: 2.8vw;
+  }
+  .main .PFL_banner {
+    background-image: url(./images/PFL-BKG-min.png);
+    height: 212px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .PFL_banner .PFL_banner_div {
+    width: 90%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL {
+    width: 70%;
+    height: 80%;
+    font-size: 170%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL .writeUp {
+    width: 60%;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN {
+    border-radius: 0.4vw;
+    border: 1px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 70%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 30%;
+    width: 60%;
+    background-color: #006892;
+  }
+  .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN:hover {
+    background-color: #035376;
+    color: white;
   }
 }
 /*# sourceMappingURL=index.css.map */

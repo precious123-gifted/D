@@ -142,6 +142,7 @@ text-decoration-color: #5555;
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-bottom: 10%;
 spam{font-size: 2vw;}
 #claim-logo{margin-bottom: 5%;}
 #claims{
@@ -191,6 +192,61 @@ border-radius: 15%;
 }
 }
 
+
+
+}
+
+.brief_container{
+  background-color: #323A45;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 212px;
+span{width: 90%;
+font-size: 1.6vw;}
+}
+
+.PFL_banner{
+background-image: url(./images/PFL-BKG.png);
+height: 212px;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+.PFL_banner_div{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+  .PFL{
+    width: 30%;
+    height: 80%;
+    font-size: 170%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .PFL_goBTN{
+      border-radius: 0.4vw;
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      font-size: 70%;
+      justify-content: center;
+      height: 30%;
+      width: 60%;
+      background-color: #006892;
+      &:hover{
+        background-color: rgb(3, 83, 118);
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}
 
 
 }
@@ -338,6 +394,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 height: 150vh;
+margin-bottom: 15%;
 spam{font-size: 25px;}
 #claim-logo{margin-bottom: 5%;}
 #claims{
@@ -393,7 +450,65 @@ border-radius: 36px;
 }
 
 
+.brief_container{
+  background-color: #323A45;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 212px;
+span{width: 90%;
+font-size: 3.2vw;}
+}
 
+
+.PFL_banner{
+background-image: url(./images/PFL-BKG-min.png);
+height: 212px;
+background-position-x: 50%;
+background-position-y: 50%;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: top;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+.PFL_banner_div{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+  .PFL{
+    width: 100%;
+    height: 80%;
+    font-size: 170%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .writeUp{width: 60%;}
+    .PFL_goBTN{
+      border-radius: 0.4vw;
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      font-size: 70%;
+      justify-content: center;
+      height: 30%;
+      width: 60%;
+      background-color: #006892;
+      &:hover{
+        background-color: rgb(3, 83, 118);
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}
+
+
+}
 
   }
 }
@@ -539,6 +654,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 height: 150vh;
+margin-bottom: 15%;
 spam{font-size: 4vw;}
 #claim-logo{margin-bottom: 5%;}
 #claims{
@@ -593,6 +709,67 @@ border-radius: 36px;
 
 }
 
+
+.brief_container{
+  background-color: #323A45;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 212px;
+span{width: 90%;
+font-size: 2.8vw;}
+}
+
+
+
+.PFL_banner{
+background-image: url(./images/PFL-BKG-min.png);
+height: 212px;
+background-position-x: 50%;
+background-position-y: 50%;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: top;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+.PFL_banner_div{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+  .PFL{
+    width: 70%;
+    height: 80%;
+    font-size: 170%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .writeUp{width: 60%;}
+    .PFL_goBTN{
+      border-radius: 0.4vw;
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      font-size: 70%;
+      justify-content: center;
+      height: 30%;
+      width: 60%;
+      background-color: #006892;
+      &:hover{
+        background-color: rgb(3, 83, 118);
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}
+
+
+}
 
 
   }
