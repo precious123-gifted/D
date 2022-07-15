@@ -554,12 +554,8 @@ font-size: 3.2vw;}
 .PFL_banner{
 background-image: url(./images/PFL-BKG-min.png);
 height: 212px;
-background-position-x: 50%;
-background-position-y: 50%;
-background-size: cover;
-background-repeat: no-repeat;
+background-position: center center;
 background-attachment: fixed;
-background-position: top;
 color: white;
 display: flex;
 align-items: center;
