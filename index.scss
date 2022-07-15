@@ -271,22 +271,25 @@ justify-content: center;
     width: 90%;
     display: flex;
     justify-content: space-between;
+    .heading{font-size: 24px;}
  .resourcesNstate{
-    width: 48%;
+    width: 44%;
     display: flex;
     justify-content: space-between;
     .resources{
  .list{
       display: flex;
       flex-direction: column;
-      margin-left: 50px;
+      margin-left: 20px;
+      span{img{margin-right: 10px;}}
     }
     }
     .statePrograms{
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
    
@@ -294,21 +297,24 @@ justify-content: center;
 
   }
   .leadershipNtranslation{
-    width: 48%;
+    width: 44%;
     display: flex;
     justify-content: space-between;
     .leadership{
+    
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
     .translation{
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
   }
@@ -316,7 +322,23 @@ justify-content: center;
  
 }
 
-
+.footer-nav{
+  height: 24px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  .info{
+    width: 90%;
+    .div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+    }
+  }
+}
 
 
   }
@@ -594,6 +616,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    .heading{font-size: 24px;}
  .resourcesNstate{
     width: 100%;
     display: flex;
@@ -602,14 +625,16 @@ justify-content: center;
  .list{
       display: flex;
       flex-direction: column;
-      margin-left: 50px;
+      margin-left: 20px;
+      span{img{margin-right: 10px;}}
     }
     }
     .statePrograms{
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
    
@@ -624,14 +649,16 @@ justify-content: center;
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
     .translation{
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
   }
@@ -639,6 +666,27 @@ justify-content: center;
  
 }
 
+.footer-nav{
+  height: 24px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  .info{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      font-size: 70%;
+    }
+  }
+}
 
 
   }
@@ -920,6 +968,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    .heading{font-size: 24px;}
  .resourcesNstate{
     width: 100%;
     display: flex;
@@ -928,14 +977,16 @@ justify-content: center;
  .list{
       display: flex;
       flex-direction: column;
-      margin-left: 50px;
+      margin-left: 20px;
+      span{img{margin-right: 10px;}}
     }
     }
     .statePrograms{
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
    
@@ -950,14 +1001,16 @@ justify-content: center;
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
     .translation{
       .list{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 20px;
+        span{img{margin-right: 10px;}}
       }
     }
   }
@@ -965,7 +1018,23 @@ justify-content: center;
  
 }
 
-
+.footer-nav{
+  height: 24px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  .info{
+    width: 90%;
+    .div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+    }
+  }
+}
 
 
 
