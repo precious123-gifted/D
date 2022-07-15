@@ -89,6 +89,12 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .main .navigation-header .navigation .EDDlogo {
+    cursor: pointer;
+  }
+  .main .navigation-header .navigation .menu-icon {
+    cursor: pointer;
+  }
   .main .banner {
     height: 375px;
     width: 100%;
@@ -241,6 +247,7 @@ body {
             justify-content: space-between;
   }
   .main .claim #claims .unemployment {
+    cursor: pointer;
     width: 19vw;
     height: 17vw;
     background: url(./images/unemployment.png) no-repeat 0, 0 #000303b9;
@@ -259,6 +266,7 @@ body {
     border-radius: 15%;
   }
   .main .claim #claims .disability {
+    cursor: pointer;
     width: 19vw;
     height: 17vw;
     background: url(./images/disability.png) no-repeat 0, 0 #000303b9;
@@ -277,6 +285,7 @@ body {
     border-radius: 15%;
   }
   .main .claim #claims .PFL {
+    cursor: pointer;
     width: 19vw;
     height: 17vw;
     width: 19vw;
@@ -359,6 +368,7 @@ body {
   .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN {
     border-radius: 0.4vw;
     border: 1px solid white;
+    cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -376,6 +386,89 @@ body {
   .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN:hover {
     background-color: #035376;
     color: white;
+  }
+  .main .footer {
+    height: 212px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #323A45;
+    color: white;
+  }
+  .main .footer .content {
+    font-size: 80%;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .footer .content .resourcesNstate {
+    width: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .footer .content .resourcesNstate .resources .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .resourcesNstate .statePrograms .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .leadershipNtranslation {
+    width: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .footer .content .leadershipNtranslation .leadership .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .leadershipNtranslation .translation .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
   }
 }
 
@@ -757,6 +850,94 @@ body {
     background-color: #035376;
     color: white;
   }
+  .main .footer {
+    height: 612px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #323A45;
+    color: white;
+  }
+  .main .footer .content {
+    font-size: 80%;
+    width: 90%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .main .footer .content .resourcesNstate {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .footer .content .resourcesNstate .resources .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .resourcesNstate .statePrograms .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .leadershipNtranslation {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .footer .content .leadershipNtranslation .leadership .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .leadershipNtranslation .translation .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
@@ -1006,6 +1187,7 @@ body {
             align-items: center;
     color: white;
     border-radius: 36px;
+    text-align: center;
   }
   .main .claim #claims .disability {
     width: 265px;
@@ -1024,6 +1206,7 @@ body {
             align-items: center;
     color: white;
     border-radius: 36px;
+    text-align: center;
   }
   .main .claim #claims .PFL {
     width: 265px;
@@ -1042,6 +1225,7 @@ body {
             align-items: center;
     color: white;
     border-radius: 36px;
+    text-align: center;
   }
   .main .brief_container {
     background-color: #323A45;
@@ -1129,6 +1313,94 @@ body {
   .main .PFL_banner .PFL_banner_div .PFL .PFL_goBTN:hover {
     background-color: #035376;
     color: white;
+  }
+  .main .footer {
+    height: 612px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #323A45;
+    color: white;
+  }
+  .main .footer .content {
+    font-size: 100%;
+    width: 90%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .main .footer .content .resourcesNstate {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .footer .content .resourcesNstate .resources .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .resourcesNstate .statePrograms .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .leadershipNtranslation {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .footer .content .leadershipNtranslation .leadership .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+  }
+  .main .footer .content .leadershipNtranslation .translation .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
   }
 }
 /*# sourceMappingURL=index.css.map */

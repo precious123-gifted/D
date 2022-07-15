@@ -53,6 +53,8 @@ width: 90.8%;
 display: flex;
 justify-content: space-between;
 align-items: center;
+.EDDlogo{cursor: pointer;}
+.menu-icon{cursor: pointer;}
   }
 }
 
@@ -150,6 +152,7 @@ width: 90%;
 display: flex;
 justify-content: space-between;
 .unemployment{
+  cursor: pointer;
 width: 19vw;
 height: 17vw;
 background: url(./images/unemployment.png) no-repeat 0, 0 #000303b9;
@@ -163,6 +166,7 @@ border-radius: 15%;
 
 }
 .disability{
+  cursor: pointer;
 width: 19vw;
 height: 17vw;
 background: url(./images/disability.png) no-repeat 0, 0 #000303b9;
@@ -175,6 +179,7 @@ color: white;
 border-radius: 15%;
 }
 .PFL{
+  cursor: pointer;
 width: 19vw;
 height: 17vw;
 width: 19vw;
@@ -233,6 +238,7 @@ justify-content: center;
     .PFL_goBTN{
       border-radius: 0.4vw;
       border: 1px solid white;
+      cursor: pointer;
       display: flex;
       align-items: center;
       font-size: 70%;
@@ -250,6 +256,67 @@ justify-content: center;
 
 
 }
+
+
+.footer{
+  height: 212px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #323A45;
+  color: white;
+  .content{
+    font-size: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+ .resourcesNstate{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    .resources{
+ .list{
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+    }
+    }
+    .statePrograms{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+   
+
+
+  }
+  .leadershipNtranslation{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    .leadership{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+    .translation{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+  }
+  }
+ 
+}
+
+
 
 
   }
@@ -510,6 +577,70 @@ justify-content: center;
 
 }
 
+
+
+.footer{
+  height: 612px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #323A45;
+  color: white;
+  .content{
+    font-size: 80%;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ .resourcesNstate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .resources{
+ .list{
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+    }
+    }
+    .statePrograms{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+   
+
+
+  }
+  .leadershipNtranslation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .leadership{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+    .translation{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+  }
+  }
+ 
+}
+
+
+
   }
 }
 
@@ -675,6 +806,7 @@ justify-content: center;
 align-items: center;
 color: white;
 border-radius: 36px;
+text-align: center;
 
 }
 .disability{
@@ -688,6 +820,7 @@ justify-content: center;
 align-items: center;
 color: white;
 border-radius: 36px;
+text-align: center;
 }
 .PFL{
 width: 265px;
@@ -700,6 +833,7 @@ justify-content: center;
 align-items: center;
 color: white;
 border-radius: 36px;
+text-align: center;
 
 
 }
@@ -770,6 +904,69 @@ justify-content: center;
 
 
 }
+
+.footer{
+  height: 612px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #323A45;
+  color: white;
+  .content{
+    font-size: 100%;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ .resourcesNstate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .resources{
+ .list{
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+    }
+    }
+    .statePrograms{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+   
+
+
+  }
+  .leadershipNtranslation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .leadership{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+    .translation{
+      .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+      }
+    }
+  }
+  }
+ 
+}
+
+
+
 
 
   }
